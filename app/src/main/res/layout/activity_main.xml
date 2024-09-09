@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="200dp"
+    android:layout_marginBottom="250dp"
+    android:background="@color/custom_sovar_purple"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+
+            android:src="@drawable/sabrina2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textFontWeight="@integer/material_motion_duration_long_2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department: Computer Science and Engineering"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_no"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hall"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blood_group"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        >
+
+
+        <!-- Email Icon -->
+        <ImageButton
+            android:id="@+id/email_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_email"
+            android:contentDescription="@string/email"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="16dp"
+            android:onClick="sendEmail"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+
+        <!-- Phone Icon -->
+        <ImageButton
+            android:id="@+id/phone_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_phone"
+            android:contentDescription="@string/phone"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="16dp"
+            android:onClick="dialPhone"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+
+        <!-- Facebook Icon -->
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_facebook"
+            android:contentDescription="@string/facebook"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="16dp"
+            android:onClick="sendMessenger"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+
+        <!-- WhatsApp Icon -->
+        <ImageButton
+            android:id="@+id/whatsapp_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_whatsapp"
+            android:contentDescription="@string/whatsapp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="16dp"
+            android:onClick="sendMessageWhatsapp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+
+
+
+        <!-- GitHub Icon -->
+        <ImageButton
+            android:id="@+id/github_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_github"
+            android:contentDescription="@string/github"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="16dp"
+            android:onClick="viewGithub"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

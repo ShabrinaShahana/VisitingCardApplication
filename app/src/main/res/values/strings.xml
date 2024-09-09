@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Visiting Card Application</string>
+    <string name="name">Shabrina Akter Shahana</string>
+    <string name="department">Department: Computer Science and Engineering</string>
+    <string name="session">Session: 2019-20</string>
+    <string name="reg_no">Reg. No: 20190648601</string>
+    <string name="hall">Hall: Sheikh Hasina Hall</string>
+    <string name="blood_group">Blood Group: O+ve</string>
+    <string name="email">shabrina.stu2018@juniv.edu</string>
+    <string name="phone">+8801314069080</string>
+    <string name="facebook">https://www.facebook.com/sabrina.shahana.1/</string>
+    <string name="whatsapp">+8801314069080</string>
+    <string name="github">https://github.com/ShabrinaShahana</string>
+</resources>

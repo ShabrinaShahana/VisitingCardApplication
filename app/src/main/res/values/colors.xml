@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_pink">#FFC0CB</color>
+    <color name="custom_deep_pink">#FF69B4</color>
+    <color name="custom_sovar_pink">#ffb3e6</color>
+    <color name="custom_hot_pink">#68E2F0</color>
+    <color name="custom_sovar_purple">#e6ccff</color>
+
+
+    <!-- White and Off-White -->
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F8F8F8</color>
+
+    <!-- Black -->
+    <color name="black">#000000</color>
+
+    <!-- Gray -->
+    <color name="gray">#808080</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+
+    <!-- Navy Blue or Dark Blue -->
+    <color name="navy_blue">#000080</color>
+    <color name="dark_blue">#00008B</color>
+
+    <!-- Pastel Colors -->
+    <color name="pastel_pink">#FFD1DC</color>
+    <color name="pastel_blue">#AEC6CF</color>
+    <color name="pastel_mint">#98FF98</color>
+
+    <!-- Earth Tones -->
+    <color name="beige">#F5F5DC</color>
+    <color name="brown">#8B4513</color>
+    <color name="olive_green">#808000</color>
+
+    <!-- Bold and Bright Colors -->
+    <color name="bright_red">#FF0000</color>
+    <color name="bright_orange">#FFA500</color>
+    <color name="bright_yellow">#FFFF00</color>
+
+    <!-- Metallic Colors -->
+    <color name="metallic_gold">#D4AF37</color>
+    <color name="metallic_silver">#C0C0C0</color>
+</resources>
